@@ -81,3 +81,9 @@ SOURCE analytics/turnaround_time.sql;
 -Analytical storytelling through SQL
 
 
+
+# Requirements
+
+MySQL Server (8.0 or later)
+
+MySQL Workbench or any SQL client
