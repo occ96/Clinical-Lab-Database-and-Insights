@@ -1,4 +1,4 @@
--- Insert sample data into clinical lab analytics tables
+-- Insert sample data into clinical lab analytics tables or derive data from publicly available source
 
 -- Patients data
 INSERT INTO CL_patients VALUES (101, 'John', 'Doe', 45, 'M');
