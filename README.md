@@ -50,7 +50,7 @@ USE clinical_lab;
 SOURCE schema.sql;
 ```
 
-### 3. Insert Sample Data with `insert.sql`
+### 3. Insert Sample Data (use `data_insert.sql`)
 
 ```sql
 -- Run this to populate the tables
