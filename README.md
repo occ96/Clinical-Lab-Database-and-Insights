@@ -1,4 +1,4 @@
-# Clinical Lab Analytics with SQL (MySQL)
+# Clinical Lab Analytics with MySQL
 
 This project models a clinical lab database and provides actionable SQL insights on patient diagnostics, lab tests, and operational efficiency. Real-world healthcare scenarios are simulated using MySQL. These scenarios range from database schema design and data insertion to business-critical analytical queries.
 
