@@ -24,14 +24,14 @@ This project models a clinical lab database and provides actionable SQL insights
 
 # Sample Insights (located in `analytics/`)
 
-| Query File                | Description |
-|---------------------------|-------------|
-| `abnormal_results.sql`    | Detect patients with test results outside normal range |
-| `top_tests.sql`           | Identify top 5 most ordered tests |
-| `turnaround_time.sql`     | Calculate average lab processing time per test |
-| `positive_covid.sql`      | Track COVID-positive test results over time |
-| `multi_abnormal.sql`      | List patients with 2+ abnormal test results |
-| `orders_by_sex.sql`       | Analyze test ordering trends by gender |
+| Query File                  | Description |
+|-----------------------------|-------------|
+| `abnormal_results.sql`      | Detect patients with test results outside normal range |
+| `top_five_tests.sql`        | Identify top 5 most ordered tests |
+| `turnaround_times.sql`      | Calculate average lab processing time per test |
+| `positive_covid.sql`        | Track COVID-positive test results over time |
+| `multi_abnormal_results.sql`| List patients with 2+ abnormal test results |
+| `group_by_sex_and_tests.sql`| Analyze test ordering trends by gender |
 
 ---
 
