@@ -80,6 +80,16 @@ SOURCE analytics/turnaround_time.sql;
 
 -Analytical storytelling through SQL
 
+# Key Functions Performed 
+| **Function**                           | **Description**                                                                                        |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+|  **Top 5 Most Ordered Lab Tests**    | Identified the 5 most frequently ordered lab tests using `COUNT()` and `GROUP BY`.                     |
+|  **Positive COVID-19 Tests**         | Filtered test results for COVID-positive cases using `WHERE` clause and string matching.               |
+| **Group by Sex and Result** | Aggregated lab test results by patient sex and result outcome using `GROUP BY`.                        |
+|  **Turnaround Time Calculation**     | Measured time between `order_date` and `result_date` using `DATEDIFF()` or `TIMESTAMPDIFF()`.          |
+|  **Abnormal Results Detection**      | Detected results outside normal range using comparison with `normal_range_min` and `normal_range_max`. |
+| **Join Across Tables**              | Joined `lab_results`, `lab_tests`, and `CL_patients` to consolidate full test context.                 |
+| **Data Cleaning and Validation**    | Handled nulls, formatted values, or removed invalid entries in some cases.                  |
 
 
 # Requirements
